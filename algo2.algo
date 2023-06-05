@@ -1,0 +1,20 @@
+ALGORITHM algo2_checkpoint
+VAR
+    tab: Set1 : ARRAY_OF INTEGER[3];
+    tab: Set2 : ARRAY_OF INTEGER [4];
+    i,j: INTEGER
+    x: INTEGER
+BEGIN
+x:=0
+Set1:={3,1,7,9}
+    FOR i from 0 to 3 DO
+    x= x+Set1[i]
+    END_FOR
+    Write (x)  
+y:=0
+Set2:={2,4,1,9,3}
+    FOR j from 0 to 4 DO
+    y= y+Set2[j]
+    END_FOR
+    Write (y)
+END
